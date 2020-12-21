@@ -1,0 +1,19 @@
+figure img {
+	width : 50%;
+	height : 50%;
+}
+
+.galerie h2 {
+	display : none;
+}
+
+/* Grille pour faire une galerie d'image legendée */
+.galerie {
+	display : grid;
+grid-template-columns : 1fr 1fr 1fr; }
+
+/* Je mets ma galerie sous forme de block au cas où la résolution de la page serait trop basse pour supporter ma grille. */
+@media screen and (max-width: 1024px){
+				.galerie{display : block;
+	}
+			}

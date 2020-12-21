@@ -1,0 +1,49 @@
+img {
+	width : 30%;
+	height : 30%;
+	
+}
+
+/* Réalisation de l'animation */
+
+.slider {
+	position: relative;
+	margin:  20px auto;
+	overflow: hidden;
+	width: 800px;
+	height: 200px;
+}
+.slidercontenu li {
+	display: inline;
+}
+
+.slidercontenu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 700px;
+	margin: 0;            
+	padding: 0;
+	animation-name: AutoSlide;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+/* Utilisation de keyframes qui permet d'avoir un slideshow automatique */
+@keyframes AutoSlide {
+	0%, 15%, 100% {
+		left: 0px; /*1ère image*/
+	}
+	35%, 50% {
+		left: -150px; /*2ème image*/
+	}
+	70%, 85% {
+		left: -300px; /*3ème image*/
+	}
+}
+
+/* J'ai décidé de retirer cette animation pour des petits écrans. */
+@media screen and (max-width: 900px){
+				.slider{display : none;
+	}
+			}

@@ -1,0 +1,21 @@
+figure img {
+	width : 40%;
+	height : 40%;
+}
+
+.galerieavenir h3 {
+	display : none;
+}
+.galerieavenir{
+	display : grid;
+grid-template-columns : 1fr 1fr; }
+
+/* Je mets ma galerie sous forme de block au cas où la résolution de la page serait trop basse pour supporter ma grille de manière alignée. */
+@media screen and (max-width: 660px){
+				.galerieavenir{display : block;
+	}
+	figure img{
+		width : 70%;
+		height : 70%;
+	}
+			}

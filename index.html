@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+		<meta charset="utf-8">
+		<link href="styles/styles.css" rel="stylesheet" type="text/css"> <!-- Deux pages styles une référence, et une pour l'index -->
+		<link href="styles/index.css" rel="stylesheet" type="text/css">
+		<title> Page d'accueil </title>
+</head>
+<body>
+<main>
+	<header>
+		<h1> Voiture Volante </h1>
+	</header>
+
+	<nav> <!-- Menu de navigation !-->
+		<ul>
+		<li><a href="index.html"> Accueil </a> </li>
+		<li><a href="projet.html"> Projet </a> </li>
+		<li><a href="concepteur.html"> Concepteur </a> </li>
+		<li><a href="avenir.html"> L'avenir </a> </li>
+		<li><a href="sources.html"> Sources </a></li>
+		</ul>
+	</nav>
+	
+	<!-- Création d'un conteneur, qui contiendra une section avec deux articles à l'intérieur. -->
+	<div class="contenu">
+		<section>
+			<h2> Les voitures volantes </h2>
+			<article>
+				
+				<h2> Les projets </h2>
+				
+				<p> Les voitures volantes diposent de nombreux projets qui vont permettre
+				</p>
+				<!-- Figure d'une image accompagnant le paragraphe -->
+				<figure>
+				<img src="images/voiturevolante.jpg" alt="Voiture volante" />
+				<figcaption>Image d'une voiture volante</figcaption>
+				</figure>
+				
+			</article>
+			
+			<article>
+				<h2> Présentation </h2>
+				<p> Les voitures volantes existent bel et bien. Le terme de voiture volante est utilisé pour désigner un véhicule hybride tenant à 
+				la fois de l'avion et de l'automobile. Les projets de voitures volantes se multiplient chaque année. 
+				La voiture volante fonctionne comme un avion en l'air, et comme une voiture au sol. Mais actuellement soumise à la charte Européenne,
+				les premières voitures volantes publics pourrait voir le jour en 2020. Cependant, l'enthousiasme des constructeurs face à ce projet est
+				élevé, c'est pourquoi les voitures volantes me semble être un moyen de transport original mais en plus très prometteur.
+				
+				</p>
+	
+			
+	<!-- Insertion d'une vidéo  accompagnant les propos à l'aide de la balise <video> -->
+	<video controls src="video/voiture.mp4">Ici la description alternative</video>
+			</article>
+		</section>
+	</div>
+
+	<!-- Insertion d'un bouton qui mènera lorsque l'on clique dessus vers le haut de page -->
+	<a class="enhaut" href="#"> <i class="fas fa-arrow-up"></i> </a>
+	
+	<footer> 
+		<!-- Création exceptionnel de ce div dans le but d'insérer dans le CSS une image triangulaire au dessus du footer. -->
+		<div class="footertriangle"> </div>
+		<p> Site crée par Tolga Sahin 21801808 en L1 Informatique. </p>
+		<p> Site réalisé pour un travail sur le thème de Transport Original. </p>
+	</footer>
+</main>	
+</body>
+</html>

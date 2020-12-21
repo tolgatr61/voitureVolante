@@ -1,0 +1,17 @@
+figure img {
+	width : 30%;
+	height : 30%;
+}
+
+.galeriesource h3 {
+	display : none;
+}
+.galeriesource {
+	display : grid;
+grid-template-columns : 1fr 1fr 1fr; }
+
+/* Je mets ma galerie sous forme de block au cas où la résolution de la page serait trop basse pour supporter ma grille de manière alignée. */
+@media screen and (max-width: 660px){
+				.galeriesource{display : block;
+	}
+			}

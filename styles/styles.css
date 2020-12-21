@@ -1,0 +1,112 @@
+
+/* Proprieté sur le body */
+body {
+	background-color : #DFDFDF;
+	font: 14px "Ma police",Arial, sans-serif;
+	cursor: url(red.cur), auto; /* Modification du curseur */
+}
+
+/* Déclaration de la police */
+@font-face {
+	font-family: "Ma police";
+	src: url('chunkfive-webfont.woff');
+}
+
+/* Adapte ma page pour des résolutions de page très petites */
+@media screen and (max-width: 640px) {
+	.contenu{
+		height : 10%;
+	}
+	video{
+		display : none;
+	}
+	
+}
+	
+/* Configuration du bloc header */
+header {
+	width: 100%;
+    height: 110px;
+    background: #253D5D;
+    border-bottom: 5px solid #495C76;	
+}
+
+/* Bloc principal */
+.contenu {
+	background-color : white;
+	border: 2px solid black;
+	height: auto;
+	padding : 40px;
+	margin : 40px;
+	
+}
+
+.contenu h2{
+	text-align : center;
+	}
+
+/* Insertion d'une image triangulaire sur le dessus du footer */
+.footertriangle {
+    width: 100%;
+    background: #dfdfdf url(triangle_bas.png) repeat-x;
+    height: 25px;
+}
+
+/* Configuration du pied de page */
+footer{
+background-color:#d4d4d4;
+width:100%;
+height:175px;
+bottom:0;
+color: white;
+}
+
+/* Propriété sur le titre principal pour lui créer un formatage personalisée */
+header h1 {
+text-align: center;
+font-size: 300%;
+color: yellow;
+text-shadow: 3px 3px 1px black;
+}
+
+/* Début de la configuration du menu de navigation */
+nav {
+
+border: 1px solid black;
+background: #495C76; 
+text-align: center;
+}
+
+nav a {
+display: block;
+padding: .5em;
+text-align: center;
+}
+
+nav a:hover {
+	background: red;
+	color : white;
+}
+
+nav li {
+color : white;
+display: inline-block;
+border : 1px solid yellow;
+}
+/* Fin de la configuration du menu de navigation */
+
+/* Configuration d'un bouton vert qui renvoie vers le haut de page */
+.enhaut{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #27ae60;
+  bottom: 40px;
+  right: 50px;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}

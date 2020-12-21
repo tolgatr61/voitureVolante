@@ -1,0 +1,11 @@
+figure img {
+	width : 30%;
+	height: 15%;
+	border : 2px solid black;
+	
+}
+
+video {
+	width : 400px;
+	height : 250px;
+}

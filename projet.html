@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+		<meta charset="utf-8">
+		<link href="styles/styles.css" rel="stylesheet" type="text/css"> <!-- Deux pages styles une référence, et une pour la page constructeur -->
+		<link href="styles/projet.css" rel="stylesheet" type="text/css">
+		<title> Page d'accueil </title>
+</head>
+<body>
+<main>
+	<header>
+		<h1> Voiture Volante </h1>
+	</header>
+
+	<nav> <!-- Menu de navigation !-->
+		<ul>
+		<li><a href="index.html"> Accueil </a> </li>
+		<li><a href="projet.html"> Projet </a> </li>
+		<li><a href="concepteur.html"> Concepteur </a> </li>
+		<li><a href="avenir.html"> L'avenir </a> </li>
+		<li><a href="sources.html"> Sources </a></li>
+		</ul>
+	</nav>
+	<!-- Création d'un conteneur, qui contiendra une section avec deux articles à l'intérieur. -->
+	<div class="contenu">
+		<section>
+			<h2> Les voitures volantes </h2>
+			<article>
+				
+				<h2> Histoire </h2>
+				
+				<p> L'évolution des voitures volantes est effectué comme la majorité des transports de manière croissante. Il y'a eu notamment de nombreuses réalisations non fonctionnel comme l'Autoplane de Glenn Curtiss en 1917. Cependant,
+				au début du 20ème siècle les américains souffraient de manque d'aviation durant les époques de guerre. La première création d'une voiture a été ammené par Glenn Curtis en 1917, mais celui-ci étant non fonctionnel. Il s'est suivi par
+				l'aérobile de Waterman en 1937. Cette idée fut longtemps developpée par l'aviation américaine, (notamment à intéret militaire et économique) puis vers le 21ème cette idée s'est tranmis partout dans le monde. Notamment par la présence de nouveaux
+				prototypes, projets en Europe et en Asie. La voiture volante c'est même developpée en France, récemment une voiture volante française : Le Pégase du départ d'Angleterre a survoler la Manche.
+				</p>
+						
+			</article>
+			
+			<article>
+				<h2> Les réalisations </h2>
+				<p> Voici une liste de quelques réalisations fonctionelles: </p>
+				<ul>
+					<li>l'Aerobile de Waterman en 1937 </li>
+					<li> l'Airphibian de R. Fulton en 1945 </li>
+					<li> l'Aerocar en 1949 qui fut la seule à avoir été construite en plusieurs exemplaires (six exemplaires) </li>
+					<li> l'Autoplane sur base de Vespa 400 de Robert Lebouder en 1972 qui vola pendant plusieurs années </li>
+					<li> le Parajet Skycar de type paramoteur qui a réalisé un raid Londres-Tombouctou en 2009 </li>
+					<li> le Pégase </li>
+					<li> Terrafugia Transition </li>
+					<li> L'AeroMobil </li>
+					<li> Lilium Jet </li>
+					<li> Il y'en a bien d'autres ... mais voici les plus importantes sous un suivi chronologique</li>
+				</ul>
+				
+			</article>
+				
+			<article>
+				<h2> Exemples </h2>
+			
+				<!--- Utilisation exceptionnel de div ici pour une galerie avec une grille, ici le premier div est le conteneur et les blocs div à l'intérieur seront pour l'alignement des figures -->
+				<div class="galerie">
+			
+					<article>
+						<h2> Première image </h2>
+						<figure> 
+							<img src="images/pegase.jpeg" alt="Image de la Pegase">
+							<figcaption> Voiture volante française : La Pégase qui a traversé la Manche.</figcaption>
+						</figure>
+					</article>
+			
+					<article>
+						<h2> Deuxième image </h2>
+						<figure class="deuxiemeimage"> 
+							<img src="images/aeromobil.jpg" alt="Image de la Pegase">
+							<figcaption> Voiture volante américaine : L'Aeromobil, crée par une firme américaine tres investit dans le projet.</figcaption>
+						</figure>
+					</article>
+			
+					<article>
+						<h2> Troisième image </h2>
+						<figure class="troisiemeimage"> 
+							<img src="images/lilium.jpg" alt="Image de Lilium">
+							<figcaption> Voiture volante allemande : Lilium.</figcaption>
+						</figure>
+					</article>	
+				
+				</div>
+			</article>
+				
+		</section>
+	</div>
+	
+	<!-- Insertion d'un bouton qui mènera lorsque l'on clique dessus vers le haut de page -->
+	<a class="enhaut" href="#"> <i class="fas fa-arrow-up"></i> </a>
+	
+	<footer> 
+		<!-- Création exceptionnel de ce div dans le but d'insérer dans le CSS une image triangulaire au dessus du footer. -->
+		<div class="footertriangle"> </div>
+		<p> Site crée par Tolga Sahin 21801808 en L1 Informatique. </p>
+		<p> Site réalisé pour un travail sur le thème de Transport Original. </p>
+	</footer>
+</main>	
+</body>
+</html>
